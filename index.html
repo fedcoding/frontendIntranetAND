@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./styles.css" media="screen" />
+    <link
+      rel="stylesheet"
+      href="./bootstrap-4.4.1-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Intranet AND</title>
+  </head>
+  <body>
+    <header>
+      <div class="headerContainer">
+        <div class="headerBackground">
+          <h1 class="intranetSlogan">
+            Intranet AND un <br />
+            espacio para todos
+          </h1>
+          <div class="headerLogo"></div>
+        </div>
+      </div>
+    </header>
+
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-transparent menuNavbar"
+      id="navBarContainer"
+    >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav" id="menuNavegacion">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./nosotros.html">¿Quienes somos?</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./directorio.html">Directorio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./news.html">Noticias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./sigand.html">Sigand</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <section class="informacionDeInteresSuperior">
+      <div class="informacionDeInteresWrapper row">
+        <div class="informacionIzquierda col-sm-12 col-md-6 col-lg-5">
+          <div class="sliderNoticiasWrapper">
+            <div class="sliderNoticiassubWrapper">
+              <h2 class="noticiastitulo">Novedades AND</h2>
+              <div class="sliderNoticias">
+                <div
+                  id="carouselExampleSlidesOnly"
+                  class="carousel slide"
+                  data-ride="carousel"
+                >
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img
+                        src="./assets/fotosNoticias/fotoDirectora.jpg"
+                        class="d-block w-100"
+                        alt="foto del director"
+                      />
+                      <h3 class="sliderNoticiasFecha">Marzo 2020</h3>
+                      <h3 class="sliderNoticiasTitle">
+                        Nuestra Dirección ha cambiado
+                      </h3>
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="./assets/fotosNoticias/fotoDirectora.jpg"
+                        class="d-block w-100"
+                        alt="foto del director"
+                      />
+                      <h3 class="sliderNoticiasFecha">Marzo 2020</h3>
+                      <h3 class="sliderNoticiasTitle">
+                        Nuestra Dirección ha cambiado
+                      </h3>
+                    </div>
+                    <div class="carousel-item">
+                      <img
+                        src="./assets/fotosNoticias/fotoDirectora.jpg"
+                        class="d-block w-100"
+                        alt="foto del director"
+                      />
+                      <h3 class="sliderNoticiasFecha">Marzo 2020</h3>
+                      <h3 class="sliderNoticiasTitle">
+                        Nuestra Dirección ha cambiado
+                      </h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="./news.html" class="linkNoticias">Ver más noticias</a>
+          </div>
+          <div class="informacionDeInteresWrapper">
+            <h2 class="convocatoriasTitulo">Convocatorias</h2>
+            <div
+              id="informacionDeinteresSlider"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#informacionDeinteresSlider"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li
+                  data-target="#informacionDeinteresSlider"
+                  data-slide-to="1"
+                ></li>
+                <li
+                  data-target="#informacionDeinteresSlider"
+                  data-slide-to="2"
+                ></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="./assets/fotosNoticias/convocatorias.png"
+                    class="d-block w-100 informacionDeinteres"
+                    alt="imagen con la información de la convocatoria"
+                  />
+                  <div class="carousel-caption d-none d-md-block"></div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./assets/fotosNoticias/interna.jpg"
+                    class="d-block w-100 informacionDeinteres"
+                    alt="imagen con la información de la convocatoria"
+                  />
+                  <div class="carousel-caption d-none d-md-block"></div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./assets/fotosNoticias/conv.png"
+                    class="d-block w-100 informacionDeinteres"
+                    alt="imagen con la información de la convocatoria"
+                  />
+                  <div class="carousel-caption d-none d-md-block"></div>
+                </div>
+              </div>
+              <a
+                class="carousel-control-prev"
+                href="#informacionDeinteresSlider"
+                role="button"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a
+                class="carousel-control-next"
+                href="#informacionDeinteresSlider"
+                role="button"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+            <a href="" class="linkNoticias" id="convocatoriasLink"
+              >Ver más convocatorias</a
+            >
+          </div>
+          <div class="pagosContenedor">
+            <h3 class="pagosTitle">Plataforma de Pagos</h3>
+            <img
+              src="./assets/ImagenesGenerales/pagos.png"
+              alt=""
+              class="imagenPagos"
+            />
+            <a href="" class="pagosdescripcion"
+              >Ingresa acá para obtener los documentos para generar tu cuenta de
+              cobro.</a
+            >
+          </div>
+        </div>
+        <div class="informacionDerecha col-sm-12 col-md-6 col-lg-5">
+          <section class="intranetMipg">
+            <h2 class="mipgTitulo">Conozcamos acerca del MIPG</h2>
+            <p class="mipgDescripcion">
+              Herramientas para el cumplimiento de las metas estatales, en
+              términos de calidad de la gestión y satisfacción ciudadana
+            </p>
+
+            <video
+              controls
+              class="mipgVideo"
+              poster="./assets/ImagenesGenerales/youtube.png"
+            >
+              <source src="./assets/video/mipg.mp4" type="video/mp4" />
+              <!-- <source src="mipg.ogg" type="video/ogg" /> -->
+              Your browser does not support the video tag.
+            </video>
+            <h3 id="fuente">Fuente función publica</h3>
+            <h2 class="mipgTitulo">Cómo funciona MIPG en la AND</h2>
+            <p class="mipgDescripcion">
+              A través de la implementación de las políticas y el sistema
+              integrado de gestión, la AND se encamina al cumplimiento de su
+              misión, visión y objetivos institucionales.
+            </p>
+            <a href="./sigand.html" class="linkNoticias" id="linkNoticiass"
+              >Sistema integrados de Gestión</a
+            ><br />
+            <a href="./politicas.html" class="linkNoticias"
+              >Políticas de MIPG</a
+            >
+            <div class="mipgGrafico">
+              <img id="mipgImagen" src="mipg.png" alt="" />
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="dependenciesMenu">
+      <section class="pageTitle">
+        <h3>Conozcamos la Agencia Nacional Digital</h3>
+      </section>
+      <div class="dependenciesLine">
+        <div class="iconContainer">
+          <a href="./dependencias/direccion.html">
+            <div class="iconsBorder" id="direccionBorder">
+              <img
+                src="./assets/iconos/direccion.jpg"
+                alt="icono de una mujer sonriendo"
+                class="depenciesIcons"
+              />
+            </div>
+          </a>
+          <span class="iconText">Dirección</span>
+        </div>
+        <div class="iconContainer">
+          <a href="./dependencias/subdireccionCiudadanos.html">
+            <div class="iconsBorder" id="ciudadanosBorder">
+              <img
+                src="./assets/iconos/ciudadanos.jpg"
+                alt="icono de personas estrechando la mano"
+                class="depenciesIcons"
+              />
+            </div>
+          </a>
+          <span class="iconText"
+            >Subdirección <br />Servicios Ciudadanos Digitales</span
+          >
+        </div>
+        <div class="iconContainer">
+          <a href="./dependencias/subdireccionDesarrollo.html">
+            <div class="iconsBorder" id="desarrolloBorder">
+              <img
+                src="./assets/iconos/desarrollo.jpg"
+                alt="icono de piezas de rompecabezas que encajan correctamente"
+                class="depenciesIcons"
+              />
+            </div>
+          </a>
+          <span class="iconText"
+            >Subdirección <br />
+            Desarrollo</span
+          >
+        </div>
+        <div class="iconContainer">
+          <a href="./dependencias/subdireccionFinanciera.html">
+            <div class="iconsBorder" id="administrativaBorder">
+              <img
+                src="./assets/iconos/administrativa.jpg"
+                alt="icono de articulos de oficina"
+                class="depenciesIcons"
+              />
+            </div>
+          </a>
+          <span class="iconText">Subdirección Administrativa y Financiera</span>
+        </div>
+        <div class="iconContainer">
+          <a href="./dependencias/subdireccionJuridica.html">
+            <div class="iconsBorder" id="juridicaBorder">
+              <img
+                src="./assets/iconos/juridica.jpg"
+                alt="icono de un contrato"
+                class="depenciesIcons"
+              />
+            </div>
+          </a>
+          <span class="iconText"
+            >Subdirección<br />
+            Juridica</span
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- galeria de fotos ////////////////////////////////////////////// -->
+    <h2 class="galeriaTitle">Galeria</h2>
+    <section class="center sliders" id="containerSlick">
+      <div>
+        <img
+          src="./assets/fotosInicio/noti1.jpg"
+          alt="fotografía de actividades llevadas a cabo dentro de la agencia nacional digital"
+        />
+      </div>
+      <div>
+        <img
+          src="./assets/fotosInicio/noti2.jpg"
+          alt="fotografía de actividades llevadas a cabo dentro de la agencia nacional digital"
+        />
+      </div>
+      <div>
+        <img
+          src="./assets/fotosInicio/noti7.jpg"
+          alt="fotografía de actividades llevadas a cabo dentro de la agencia nacional digital"
+        />
+      </div>
+      <div>
+        <img
+          src="./assets/fotosInicio/noti4.png"
+          alt="fotografía de actividades llevadas a cabo dentro de la agencia nacional digital"
+        />
+      </div>
+      <div>
+        <img
+          src="./assets/fotosInicio/noti1.jpg"
+          alt="fotografía de actividades llevadas a cabo dentro de la agencia nacional digital"
+        />
+      </div>
+      <div>
+        <img
+          src="./assets/fotosInicio/noti6.jpg"
+          alt="fotografía de actividades llevadas a cabo dentro de la agencia nacional digital"
+        />
+      </div>
+      <div>
+        <img
+          src="./assets/fotosInicio/noti9.jpg"
+          alt="fotografía de actividades llevadas a cabo dentro de la agencia nacional digital"
+        />
+      </div>
+      <div>
+        <img
+          src="./assets/fotosInicio/noti11.jpg"
+          alt="fotografía de actividades llevadas a cabo dentro de la agencia nacional digital"
+        />
+      </div>
+      <div>
+        <img
+          src="./assets/fotosInicio/noti5.jpg"
+          alt="fotografía de actividades llevadas a cabo dentro de la agencia nacional digital"
+        />
+      </div>
+    </section>
+
+    <footer>
+      <p>
+        POLÍTICA DE TRATAMIENTO DE DATOS PERSONALES © Copyright 2018 Agencia<br />
+        Nacional Digital.
+        <span>Todos los derechos reservados.</span>
+      </p>
+      <img
+        src="./assets/imagenesGenerales/logoFooter.png"
+        alt=""
+        class="logoFooter"
+      />
+    </footer>
+
+    <script src="./jquery/jquery.min.js"></script>
+    <script src="./jQuery-rwdImageMaps-master/jquery.rwdImageMaps.min.js"></script>
+    <script src="./bootstrap-4.4.1-dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="./slick/slick.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function (e) {
+        $(".center").slick({
+          mobileFirst: true,
+          dots: true,
+          centerMode: true,
+          centerPadding: "0px",
+          slidesToShow: 3,
+          responsive: [
+            {
+              breakpoint: 1200,
+              settings: {
+                variableWidth: true,
+                arrows: true,
+                centerMode: true,
+                centerPadding: "280px",
+                slidesToShow: 3,
+              },
+            },
+            {
+              breakpoint: 768,
+              settings: {
+                variableWidth: true,
+                arrows: true,
+                centerMode: true,
+                centerPadding: "0px",
+                slidesToShow: 2,
+              },
+            },
+            {
+              breakpoint: 576,
+              settings: {
+                // variableWidth: true,
+                arrows: false,
+                centerMode: true,
+                centerPadding: "40px",
+                slidesToShow: 1,
+              },
+            },
+            {
+              breakpoint: 100,
+              settings: {
+                // variableWidth: true,
+                autoplay: true,
+                arrows: false,
+                centerMode: true,
+                centerPadding: "0px",
+                slidesToShow: 1,
+              },
+            },
+          ],
+        });
+      });
+    </script>
+  </body>
+</html>
