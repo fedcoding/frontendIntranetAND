@@ -2,10 +2,11 @@ body {
   overflow-x: hidden;
   font-family: "Muli", sans-serif !important;
 }
-/* .informacionIzquierda,
-.informacionDerecha {
-  padding: 20px !important;
-} */
+.sigangButton {
+  margin-bottom: 90px;
+  font-family: "Muli", sans-serif !important;
+  font-weight: bold;
+}
 .quienesSomos {
   font-size: 16px;
   color: rgba(0, 72, 132, 1);
@@ -453,6 +454,7 @@ body {
   height: 150px;
 }
 footer {
+  width: 100vw;
   display: flex !important;
   align-items: center;
   justify-content: space-between;
@@ -853,7 +855,7 @@ body {
   height: auto;
   align-items: center;
   border-radius: 49px;
-  margin-bottom: 180px;
+  margin-bottom: 90px;
 }
 
 /* estilos subdirecciones /////////////////// */
@@ -1303,7 +1305,7 @@ table#customers {
     width: 428px;
   }
   .botonesgestionesBackground {
-    width: 61%;
+    width: 81%;
   }
   .tablaPoliticas {
     padding: 0 5%;
@@ -1318,7 +1320,6 @@ table#customers {
     height: 330px;
     align-items: center;
     border-radius: 49px;
-    margin-bottom: 180px;
   }
   img[usemap] {
     width: 81%;
